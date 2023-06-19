@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
 
-body {
+#body {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   background: rgb(24, 109, 255);
-}
-
-h1,p{
-  color: white
+  color: white;
 }
 
 .container {
@@ -37,7 +34,7 @@ h1,p{
   height: 40px;
 }
 
-.btn {
+#btn {
   display: inline-block;
   padding: 10px 20px;
   border-radius: 10px;
@@ -51,6 +48,6 @@ h1,p{
   cursor: pointer;
 }
 
-.btn:hover {
+#btn:hover {
   background: #000;
 }
